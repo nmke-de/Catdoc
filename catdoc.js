@@ -10,7 +10,6 @@
 
 //Pastebin is the target's id where all content loaded into.
 var pastebin = "box";
-var local = "https://www.nmke.de/catdoc/";
 var basket = {};
 var catfile = ".cats";
 var catfile_read = false; //Whether cat-file is already read.
@@ -37,7 +36,7 @@ function rtf(file,handler){//Read text file
 	req.addEventListener("error",function(event){//error handler
 		alert("ERROR\n"+event.target.responseText);
 	});
-	req.open("get",local+file);//Do it!
+	req.open("get",file);//Do it!
 	req.send(null);//Just do it!
 }
 
@@ -47,8 +46,6 @@ function init(){//Initially called function.
 			a({href:"#"+event.state.url,goBack:true});
 		}
 	};*/
-	//Get whether local is "nmke.de" or "www.nmke.de"
-	local = window.location.origin+"/catdoc/";
 	// Get URL
 	var path = window.location.hash.split("#")[1];//TODO recognize handler type
 	if(!path) return;

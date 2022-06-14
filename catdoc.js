@@ -1,5 +1,5 @@
 /**
- * One day, Catdoc could replace the Doc Morus as the engine behind NMKE.
+ * One day, Catdoc could replace the Doc Morus as the engine behind my website.
  * The approach does neither need a database, nor PHP.
  * Instead, index.html will provide a frame, in which the content is pasted.
  * Unlike Doc Morus, Catdoc will retrieve its content from various text files on the server.

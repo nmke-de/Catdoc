@@ -8,43 +8,36 @@
 
 !hr
 
-!img(about:blank)(blank.)
+!img(https://www.nmke.de/icon.svg)(A random icon.)
 
-Hello there!
+Here is a list of hyperlinks.
 !ul
-- !a(#morus_test.morus)(OpenWorldDungeonCrawler)
+- !a(#catdoc.js)(Catdoc.js)
 - !a(https://github.com/The-Account)(The Account)
 !/ul
 !hr
 
+
+Here come some bulletpoints.
 !ul
-!i(Haha)
-!i(Top)
-!i  (XD)
+!i(Bullet point 1)
+!i(Second bullet point)
+!i  (Yet another bullet point.!)
 !/ul
 
+This is an ordered list.
 !ol
-- 1
-- -2
-- 3.0
-- Ohohohoh
-!/ol
-
-!ol
-- 1
-- 2
-- !ul
-- Haha
-- Hihi
-- Huhu!
-!/ul
-- Oops!
+- Put the essential files out there.
+- Edit the .cats file.
+- Write hyperlinks in an annoying way.
+- Alternatively, use this document format.
 !/ol
 
 !p
-Lorem ipsum dolor sit. Amet! Conetetur!!! Per eum foedum iteravit. In eos caelos caedit.
+This is an paragraph.
 
-Sed nunc tempus est.
+This is another paragraph.
 
-Tadaa.
+This is the last paragraph of this document.
 !/p
+

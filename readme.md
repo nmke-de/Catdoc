@@ -16,4 +16,10 @@ It stands for **Cat**egory **doc**ument. The original gimmick of Catdoc was a te
 
 ## Deployment
 
-To be Written. For now, just copy this repository and make changes as you see fit.
+1. Put the following files in the root folder of your website:
+	- [.cats](.cats)
+	- [catdoc.js](catdoc.js)
+	- [index.html](index.html)
+2. Put your other files on your website. For every page, make sure to have at least one entry in the `.cats` file like `YourCategory	YourFileName`, where the space between the category and file name is a tab.
+3. When writing hyperlinks which do not lead to external websites, make sure to include the attribute `onclick="a(this);"` in your `<a>`-tag.
+

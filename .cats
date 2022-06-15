@@ -1,15 +1,8 @@
-Test	Numbers
-Test	Src
-Test	Docs
-Numbers	1.n
-Numbers	2.n
-Numbers	3.n
+Root	Src
+Root	Docs
 Src	catdoc.js
 Src	index.html
-Src	test.html
-Src	test_catdoc.html
 Src	.cats
-Docs	morus_test.morus
 Docs	wall.quotes
 Docs	testdoc.cdo
 Docs	.cats
